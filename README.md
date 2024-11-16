@@ -10,3 +10,6 @@
  - Rotas 
  - Parâmetros
 
+ # Instalation do Nodemon
+ Automatiza o processo de reiniciar o servidor a cada alteração do teu arquivo
+

@@ -19,6 +19,11 @@ app.get("/service", function(req, res){
     res.send("Nossos services estão abertos")
 })
 
+app.get("/escola/:cargo/:professor", function(req, res) {
+    res.send(req.params)
+    
+})
+
 
 
 
