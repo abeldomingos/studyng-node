@@ -2,9 +2,15 @@ const express = require("express");
 const app = express();
 
 
+
+app.get("/home", function(req, res) {
+    res.sendFile(__dirname + "/html/index.html")
+    
+})
+
 //Criar a nossa 1º Rota
 app.get("/", function(req, res) {
-    res.send("Seja Bem Vindo ao nosso app");
+    res.send("Hello Abel Kamulingui");
     
 })
 

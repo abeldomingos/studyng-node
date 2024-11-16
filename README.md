@@ -9,6 +9,9 @@
  - Instalando o Express
  - Rotas 
  - Parâmetros
+ - Nodemon
+ - Exibindo HTML
+ - MYSQL
 
  # Instalation do Nodemon
  Automatiza o processo de reiniciar o servidor a cada alteração do teu arquivo
